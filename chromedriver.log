@@ -1,0 +1,71 @@
+[0.002][INFO]:      ChromeDriver 21.0.1180.4 /usr/bin/chromedriver
+[0.201][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.203][INFO]:      Using named testing interface
+[1.579][INFO]:      Connected to Chrome successfully. Version: 21.0.1180.89
+[1.640][FINE]:      Command received (/session/40225169bfdaab9a760f9265489e14b6)
+[1.640][FINE]:      Command finished (/session/40225169bfdaab9a760f9265489e14b6) with response {
+   "sessionId": "40225169bfdaab9a760f9265489e14b6",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "21.0.1180.4",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "mac",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "21.0.1180.89",
+      "webStorageEnabled": true
+   }
+}
+
+[1.644][FINE]:      Command received (/session/40225169bfdaab9a760f9265489e14b6/url) with params {
+   "url": "http://rbctoday.com"
+}
+
+[1.644][FINER]:     Waiting for all views to stop loading...
+[1.644][FINER]:     Done waiting for all views to stop loading
+[12.703][FINER]:    Waiting for all views to stop loading...
+[12.705][FINER]:    Done waiting for all views to stop loading
+[12.705][FINE]:     Command finished (/session/40225169bfdaab9a760f9265489e14b6/url) with response {
+   "sessionId": "40225169bfdaab9a760f9265489e14b6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[12.706][FINE]:     Command received (/session/40225169bfdaab9a760f9265489e14b6/url)
+[12.706][FINER]:    Waiting for all views to stop loading...
+[12.707][FINER]:    Done waiting for all views to stop loading
+[12.725][FINER]:    Waiting for all views to stop loading...
+[12.726][FINER]:    Done waiting for all views to stop loading
+[12.726][FINE]:     Command finished (/session/40225169bfdaab9a760f9265489e14b6/url) with response {
+   "sessionId": "40225169bfdaab9a760f9265489e14b6",
+   "status": 0,
+   "value": "http://rbctoday.com/"
+}
+
+[12.729][FINE]:     Command received (/session/40225169bfdaab9a760f9265489e14b6)
