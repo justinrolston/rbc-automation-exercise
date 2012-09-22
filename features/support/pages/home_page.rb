@@ -1,5 +1,3 @@
-require 'page-object'
-
 class HomePage
   include PageObject
 
