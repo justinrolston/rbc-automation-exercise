@@ -1,6 +1,6 @@
+require 'page-object'
+require 'page-object/page_factory'
+require 'pry'
 require 'watir-webdriver'
-require 'rspec/expectations'
-require_relative 'page_maker'
 
-World(RSpec::Matchers)
-World PageMaker
+World(PageObject::PageFactory)

@@ -1,14 +1,14 @@
 
-Given /^a browser on the home page$/ do
-  on HomePage do |page|
-    page.visit
+Given /^I am on the home page$/ do
+  visit_page HomePage
+end
+
+When /^I enter a search for "(.*?)"$/ do |text|
+  on_page HomePage do |page|
+    page.search text
   end
 end
 
-When /^selecting Map and Directions$/ do
-  pending # express the regexp above with the code you wish you had
-end
-
-Then /^the visitor should see the churches address$/ do
-  pending # express the regexp above with the code you wish you had
+Then /^I should find the churches location$/ do
+  @browser.html.should include("Reynoldsburg Baptist Church is located at 887 Rosehill Rd. Reynoldsburg, OH 43068")
 end
