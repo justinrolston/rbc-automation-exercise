@@ -1,7 +1,7 @@
 class HomePage
   include PageObject
 
-  page_url 'rbctoday.com'
+  page_url "#{FigNewton.base_url}"
 
   text_field(:search_text, :id => "search-text-1")
   button(:search_button, :id => "search-submit-1")

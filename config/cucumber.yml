@@ -1,0 +1,2 @@
+default:  FIG_NEWTON_FILE=test.yml --color --format pretty
+
